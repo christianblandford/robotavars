@@ -1,16 +1,17 @@
 # Robotavars
+
 ![Example Robot Avatar](https://github.com/christianblandford/Robotavar/blob/04f890239a1b0a6f0e98bd9bcbec4717fba060fe/robot_example.png?raw=true)
 
 Dynically generated robot avatars for your website
 
 # Installation
 
-run `yarn add robotavar` or `npm install --save robotavar`
+run `yarn add robotavars` or `npm install --save robotavars`
 
 # Usage
 
 ```
-import { Robotavar } from 'robotavar'
+import { Robotavar } from 'robotavars'
 
 <Robotavar mouth="smile" head="default" antenna="snoo" clothes="Hoodie" fabricColor="Blue02" size={300} />
 
@@ -21,11 +22,11 @@ or
 
 ## Functions
 
-To get a list of all head types, `import { headTypes } from 'robotavar'`, which returns an array of strings of all head types.
+To get a list of all head types, `import { headTypes } from 'robotavars'`, which returns an array of strings of all head types.
 
-To get a list of all antenna types, `import { antennaeTypes } from 'robotavar'`, which returns an array of strings of all antenna/atennae types.
+To get a list of all antenna types, `import { antennaeTypes } from 'robotavars'`, which returns an array of strings of all antenna/atennae types.
 
-To get a list of all mouth types, `import { mouthTypes } from 'robotavar'`, which returns an array of strings of all mouth types.
+To get a list of all mouth types, `import { mouthTypes } from 'robotavars'`, which returns an array of strings of all mouth types.
 
 ## Options
 
