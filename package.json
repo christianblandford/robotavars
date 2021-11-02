@@ -1,0 +1,9 @@
+{
+  "name": "Robotavar",
+  "version": "1.0.0",
+  "description": "Dynamically generated robot avatars for your website.",
+  "main": "index.js",
+  "repository": "https://github.com/christianblandford/Robotavar",
+  "author": "Christian Blandford",
+  "license": "MIT"
+}
