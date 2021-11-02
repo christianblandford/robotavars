@@ -1,6 +1,6 @@
 # Robotavars
 
-![Example Robot Avatar](https://github.com/christianblandford/Robotavar/blob/04f890239a1b0a6f0e98bd9bcbec4717fba060fe/robot_example.png?raw=true)
+![Example Robot Avatar](https://github.com/christianblandford/robotavars/blob/7216083ca44acca92fd1e6ad41f6cf2e165d21db/robot_example.png?raw=true)
 
 Dynically generated robot avatars for your website
 
