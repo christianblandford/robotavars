@@ -2,8 +2,32 @@
   "name": "Robotavar",
   "version": "1.0.0",
   "description": "Dynamically generated robot avatars for your website.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "keywords": [
+    "react",
+    "components",
+    "robot",
+    "avatar",
+    "dynamic"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": "https://github.com/christianblandford/Robotavar",
   "author": "Christian Blandford",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "avataaars": "^2.0.0"
+  }
 }

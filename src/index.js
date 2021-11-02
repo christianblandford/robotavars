@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import {
   Head,
@@ -11,16 +11,14 @@ import {
   Ears,
   Neck,
   Clothes,
-} from './components'
+} from "./components";
 
-export const headTypes = Object.keys(HeadTypes)
-export const antennaeTypes = Object.keys(AntennaeTypes)
-export const mouthTypes = Object.keys(MouthTypes)
+export const headTypes = Object.keys(HeadTypes);
+export const antennaeTypes = Object.keys(AntennaeTypes);
+export const mouthTypes = Object.keys(MouthTypes);
 
 export const Robotavar = ({
   antenna,
-  clothing,
-  clothingColor,
   body,
   head,
   size,
@@ -50,7 +48,12 @@ export const Robotavar = ({
       {/* Body */}
       <Body />
       {/* Clothing */}
-      <Clothes type={clothes} color={fabricColor} graphic={graphic} size={'300'} />
+      <Clothes
+        type={clothes}
+        color={fabricColor}
+        graphic={graphic}
+        size={"300"}
+      />
       {/* Neck */}
       <Neck />
       {/* Antenna */}
@@ -62,5 +65,5 @@ export const Robotavar = ({
       {/* Face */}
       <Face eyeType={eyes} mouthType={mouth} eyebrowType={eyebrows} />
     </svg>
-  )
-}
+  );
+};
