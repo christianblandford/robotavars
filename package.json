@@ -1,5 +1,5 @@
 {
-  "name": "Robotavar",
+  "name": "robotavars",
   "version": "1.0.0",
   "description": "Dynamically generated robot avatars for your website.",
   "main": "dist/index.js",
@@ -9,13 +9,15 @@
     "components",
     "robot",
     "avatar",
-    "dynamic"
+    "avatars",
+    "dynamic",
+    "avataaars"
   ],
   "files": [
     "dist",
     "README.md"
   ],
-  "repository": "https://github.com/christianblandford/Robotavar",
+  "repository": "https://github.com/christianblandford/robotavars",
   "author": "Christian Blandford",
   "license": "MIT",
   "scripts": {
