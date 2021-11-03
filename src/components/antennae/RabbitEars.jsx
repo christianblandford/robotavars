@@ -2,7 +2,7 @@ import React from 'react'
 
 export const RabbitEars = () => {
   return (
-    <g transform="translate(85,8)">
+    <g transform="translate(85,10)">
       <defs>
         <style>
           {
