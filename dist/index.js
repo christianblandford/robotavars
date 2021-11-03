@@ -5,13 +5,13 @@ require("core-js/modules/es.object.assign.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.mouthTypes = exports.headTypes = exports.antennaeTypes = exports.Robotavar = void 0;
+exports.mouthTypes = exports.headTypes = exports.antennaTypes = exports.Robotavar = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
 var _components = require("./components");
 
-const _excluded = ["antenna", "body", "head", "size", "type", "eyes", "ears", "mouth", "eyebrows", "clothes", "graphic", "fabricColor"];
+const _excluded = ["antenna", "clothing", "clothingColor", "body", "head", "size", "type", "eyes", "ears", "mouth", "eyebrows", "clothes", "graphic", "fabricColor"];
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23,14 +23,16 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 const headTypes = Object.keys(_components.HeadTypes);
 exports.headTypes = headTypes;
-const antennaeTypes = Object.keys(_components.AntennaeTypes);
-exports.antennaeTypes = antennaeTypes;
+const antennaTypes = Object.keys(_components.AntennaTypes);
+exports.antennaTypes = antennaTypes;
 const mouthTypes = Object.keys(_components.MouthTypes);
 exports.mouthTypes = mouthTypes;
 
 const Robotavar = _ref => {
   let {
     antenna,
+    clothing,
+    clothingColor,
     body,
     head,
     size,
@@ -63,7 +65,7 @@ const Robotavar = _ref => {
     color: fabricColor,
     graphic: graphic,
     size: "300"
-  }), /*#__PURE__*/_react.default.createElement(_components.Neck, null), /*#__PURE__*/_react.default.createElement(_components.Antennae, {
+  }), /*#__PURE__*/_react.default.createElement(_components.Neck, null), /*#__PURE__*/_react.default.createElement(_components.Antenna, {
     type: antenna
   }), /*#__PURE__*/_react.default.createElement(_components.Ears, {
     type: ears
