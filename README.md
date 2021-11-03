@@ -24,7 +24,7 @@ or
 
 To get a list of all head types, `import { headTypes } from 'robotavars'`, which returns an array of strings of all head types.
 
-To get a list of all antenna types, `import { antennaeTypes } from 'robotavars'`, which returns an array of strings of all antenna/atennae types.
+To get a list of all antenna types, `import { antennaTypes } from 'robotavars'`, which returns an array of strings of all antenna types.
 
 To get a list of all mouth types, `import { mouthTypes } from 'robotavars'`, which returns an array of strings of all mouth types.
 
@@ -32,11 +32,11 @@ To get a list of all mouth types, `import { mouthTypes } from 'robotavars'`, whi
 
 ### Heads
 
-Types: ['default', 'longNeck', 'sharp']
+Types: ['default', 'longNeck', 'sharp', 'round', 'knight']
 
-### Antenna/Antennae
+### Antenna
 
-Types: ['default', 'snoo', 'shrek', 'bender', 'rabbitEars']
+Types: ['default', 'snoo', 'shrek', 'bender', 'rabbitEars', 'satellite', 'calculon']
 
 ### Mouths
 

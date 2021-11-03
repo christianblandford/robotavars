@@ -56,15 +56,15 @@ Object.keys(_face).forEach(function (key) {
   });
 });
 
-var _antennae = require("./antennae");
+var _antenna = require("./antenna");
 
-Object.keys(_antennae).forEach(function (key) {
+Object.keys(_antenna).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _antennae[key]) return;
+  if (key in exports && exports[key] === _antenna[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function get() {
-      return _antennae[key];
+      return _antenna[key];
     }
   });
 });
