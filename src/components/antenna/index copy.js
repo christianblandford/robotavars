@@ -6,6 +6,7 @@ import { RabbitEars } from './RabbitEars'
 import { Bender } from './Bender'
 import { Shrek } from './Shrek'
 import { Satellite } from './Satellite'
+import { Calculon } from './Calculon'
 
 export const AntennaeTypes = {
   default: <Default />,
@@ -14,6 +15,7 @@ export const AntennaeTypes = {
   bender: <Bender />,
   shrek: <Shrek />,
   satellite: <Satellite />,
+  calculon: <Calculon />,
 }
 
 export const Antennae = ({ type }) => {

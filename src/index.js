@@ -6,19 +6,21 @@ import {
   Body,
   MouthTypes,
   Face,
-  Antennae,
-  AntennaeTypes,
+  Antenna,
+  AntennaTypes,
   Ears,
   Neck,
   Clothes,
 } from "./components";
 
 export const headTypes = Object.keys(HeadTypes);
-export const antennaeTypes = Object.keys(AntennaeTypes);
+export const antennaTypes = Object.keys(AntennaTypes);
 export const mouthTypes = Object.keys(MouthTypes);
 
 export const Robotavar = ({
   antenna,
+  clothing,
+  clothingColor,
   body,
   head,
   size,
@@ -57,7 +59,7 @@ export const Robotavar = ({
       {/* Neck */}
       <Neck />
       {/* Antenna */}
-      <Antennae type={antenna} />
+      <Antenna type={antenna} />
       {/* Ears */}
       <Ears type={ears} />
       {/* Head */}
